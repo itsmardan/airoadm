@@ -1,0 +1,40 @@
+baseURL: http://localhost:1313
+languageCode: en-us
+defaultContentLanguage: en
+title: "LoveAI: Simplifying Work & Daily Tasks with Custom AI for Creators & Small Businesses"
+disqusShortname: "DrKhan"
+enableGitInfo: false
+theme: "loveai-theme"
+
+
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
+enable_anchor_links: true
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Whitepaper"
+      url: "/whitepaper/"
+      weight: 2
+
+params:
+  description: "LoveAI provides AI-powered custom solutions to make work and daily tasks easy and fun for creators and small businesses.</i>"
+  homeMetaContent: "LoveAI provides AI-powered custom solutions to make work and daily tasks easy and fun for creators and small businesses."
+  #side menu
+  homepage_button_link: "/whitepaper/"
+  homepage_button_text: "The AI Roadmap Whitepaper"
+    
+  logo:
+      standard: "images/logo.svg"
+      mobile: "images/logo-mobile.svg"
+  
+  # The footer configuration has been corrected to include copyright_text.
+  footer:
+    copyright_text: "© airoadmap.org 2024 | Author <a href='https://wajidkhan.info'>Dr Wajid Khan</a> "
+  dateFormat: "Jan 24, 2024"
+
+
