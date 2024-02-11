@@ -1,4 +1,6 @@
-baseURL: http://localhost:1313
+#baseURL: https://localhost:1313
+baseURL: https://airoadmap.org
+
 languageCode: en-us
 defaultContentLanguage: en
 title: "LoveAI: Simplifying Work & Daily Tasks with Custom AI for Creators & Small Businesses"
