@@ -1,13 +1,11 @@
-#baseURL: https://localhost:1313
-baseURL: https://airoadmap.org
-
-languageCode: en-us
-defaultContentLanguage: en
-title: "LoveAI: Simplifying Work & Daily Tasks with Custom AI for Creators & Small Businesses"
+# _config.yaml
+baseURL: "https://airoadmap.org"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+title: "airoadmap.org: Open-Source AI Study for Enhanced Productivity & Daily Life Solutions"
 disqusShortname: "DrKhan"
 enableGitInfo: false
 theme: "loveai-theme"
-
 
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
@@ -19,24 +17,20 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
-    - name: "Whitepaper"
-      url: "/whitepaper/"
+    - name: "Documents"
+      url: "/docs/"
       weight: 2
 
 params:
-  description: "LoveAI provides AI-powered custom solutions to make work and daily tasks easy and fun for creators and small businesses.</i>"
-  homeMetaContent: "LoveAI provides AI-powered custom solutions to make work and daily tasks easy and fun for creators and small businesses."
-  #side menu
-  homepage_button_link: "/whitepaper/"
-  homepage_button_text: "The AI Roadmap Whitepaper"
-    
+  description: "airoadmap.org is an open-source AI study designed to provide insights and practical tools for enhancing productivity and simplifying daily tasks."
+  homeMetaContent: "Explore airoadmap.org's open-source AI study, offering data-driven insights and solutions to improve productivity and daily life for individuals and small businesses."
+  homepage_button_link: "/docs/"
+  homepage_button_text: "Read the AI Roadmap Whitepaper"
+
   logo:
-      standard: "images/logo.svg"
-      mobile: "images/logo-mobile.svg"
+      standard: "images/airoadmap-logo2.svg"
+      mobile: "images/airoadmap-logo2.svg"
   
-  # The footer configuration has been corrected to include copyright_text.
   footer:
-    copyright_text: "© airoadmap.org 2024 | Author <a href='https://wajidkhan.info'>Dr Wajid Khan</a> "
-  dateFormat: "Jan 24, 2024"
-
-
+    copyright_text: "© 2024 airoadmap.org | Author: <a href='https://wajidkhan.info'>Dr Wajid Khan</a>"
+  dateFormat: "24 Jan 2024"

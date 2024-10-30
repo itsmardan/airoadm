@@ -1,0 +1,15 @@
+# prod_config.yml
+build:
+  publishDir: "public"
+  command: "hugo --minify"
+
+environment:
+  HUGO_ENV: "production"
+
+params:
+  environment: "production"
+  baseURL: "https://airoadmap.org"
+  custom404: "404.html"
+
+cname:
+  domain: "airoadmap.org"

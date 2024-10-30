@@ -1,9 +1,9 @@
 ---
-title: 'The SMEs AI Puzzle'
+title: 'AI and Business'
 date: 2024-02-07T18:30:08+10:00
 draft: false
-weight: 1
-summary: Unraveling how small businesses can navigate and adopt AI technologies.
+weight: 3
+summary: Identifying key AI tools and technologies crucial for business innovation.
 layout: "_default/single.html"
 
 ---
